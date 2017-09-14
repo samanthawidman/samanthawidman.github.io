@@ -1,0 +1,8 @@
+
+name: "Samantha's Page"
+output_dir: "."
+  -text: "About Me"
+    href: about.html
+  -text: "Index"
+    href: index.html
+  
