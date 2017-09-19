@@ -1,8 +1,10 @@
-
 name: "Samantha's Page"
 output_dir: "."
-  -text: "About Me"
-    href: about.html
-  -text: "Index"
-    href: index.html
+navbar:
+  title: "Working Now!"
+  left:
+    - text: "About Me"
+      href: About.html
+    - text: "Index"
+      href: index.html
   
