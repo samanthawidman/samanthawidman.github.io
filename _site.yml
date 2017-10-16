@@ -1,10 +1,19 @@
 name: "Samantha's Page"
 output_dir: "."
 navbar:
-  title: "Working Now!"
+  title: "Samantha"
   left:
     - text: "About Me"
       href: About.html
-    - text: "Index"
-      href: index.html
+    - text: "Projects"
+      href: projects.html
   
+  right:
+    - icon: ion-social-linkedin
+      href: https://www.linkedin.com/feed/?trk=
+  
+  
+output:
+  html_document:
+    theme: cerulean
+    highlight: monochrome
