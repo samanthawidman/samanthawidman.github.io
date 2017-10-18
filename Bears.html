@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+<meta name="author" content="MITCH &amp; SAM &amp; TUCKER" />
+
+
+<title>Bears</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/ionicons-2.0.1/css/ionicons.min.css" rel="stylesheet" />
+
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { font-weight: bold; } /* Keyword */
+code > span.dt { text-decoration: underline; } /* DataType */
+code > span.co { font-style: italic; } /* Comment */
+code > span.al { font-weight: bold; } /* Alert */
+code > span.er { font-weight: bold; } /* Error */
+code > span.wa { font-style: italic; } /* Warning */
+code > span.cf { font-weight: bold; } /* ControlFlow */
+code > span.pp { font-weight: bold; } /* Preprocessor */
+code > span.do { font-style: italic; } /* Documentation */
+code > span.an { font-style: italic; } /* Annotation */
+code > span.cv { font-style: italic; } /* CommentVar */
+code > span.in { font-style: italic; } /* Information */
+</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Samantha</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="About.html">About Me</a>
+</li>
+<li>
+  <a href="projects.html">Projects</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://www.linkedin.com/feed/?trk=">
+    <span class="ion ion-social-linkedin"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Bears</h1>
+<h4 class="author"><em>MITCH &amp; SAM &amp; TUCKER</em></h4>
+<h4 class="date"><em>9/15/2017</em></h4>
+
+</div>
+
+
+<pre><code>                                                        Math 3310 Class
+                                          Appalachian State University
+                                                        Boone, NC 28608</code></pre>
+<p>Ranger Bob Berra<br />
+Jellystone National Park<br />
+Wildwood Forest, CO 23456</p>
+<p>Dear Ranger Bob Berra,</p>
+<p>I am deeply sorry about your acid rain problem causing a lack of vegetation for the bears. After using your collected bear data to come up with a solution for you, I found that the best way to limit the number of bears going to a new location is to use the formula as follows:</p>
+<p>Weight ~= 20<em>(neck.g)+chest.g-0.5</em>(length)</p>
+<p>Weight can be approximated by taking the length plus the length times circumference of chest plus length times circumferences of neck plus length divided by circumference of chest. I also attached the graphical representation that led me to this formula conclusion. While you are looking at the graphs, you’ll notice the linearity of each and see that the bears weight and chest circumference, and the bears weight and neck circumference have the most linear relationship. I also came to the conclusion that it is not important to take into account the gender of the bear, unless of course you are worried about breeding issues which is something else to consider that could potentially continue to increase the population. If this is the case, then limiting the amount of a particular gender is recommended.</p>
+<p>In order to use the formula, you can take the information that you collected and gave me, and simply plug in the numbers to the formula. Once you have all the weights of the bears, you can proceed to move the heaviest bears elsewhere in order to preserve vegetation for the remaining bears.</p>
+<p>I believe that the formula that I came up with is very accurate. Looking at the graphical representations of each measurement compared to weight helped me realize what exactly is the most and least contributing factor. Upon using these contributing factors, I tested my formula with the data you provided me to ensure that it was the most accurate that it could be. I recommend using this formula in order to determine the weights of the bears you have.</p>
+<p>Good luck with the bear move and thank you for relying on me to analyze and solve the problem for you!</p>
+<p>Sincerely,</p>
+<p>Samantha Widman</p>
+
+<div id="lab-report" class="section level2">
+<h2>Lab Report</h2>
+<p>In the bears problem, I was assigned to compute a formula that would approximate a bears weight, given specific dimensions (length, head length, head width, chest circumference, and neck circumference). With this data, I used R Studio, programming in R to plot each dimension against the weight of bears in order to see which graph showed the most linear relationship. You can observe these graphs as follows:</p>
+<pre><code>Parsed with column specification:
+cols(
+  sex = col_character(),
+  length = col_double(),
+  head.l = col_double(),
+  head.w = col_double(),
+  neck.g = col_double(),
+  chest.g = col_double(),
+  weight = col_integer()
+)</code></pre>
+</div>
+<div id="weight-vs.length" class="section level2">
+<h2>Weight vs. Length</h2>
+<p>The weight versus the length on a bear shows a positive relationship, however, there seem to be a few outliers that show that this may not be the best relationship in order to determine the weight of a bear.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">plot</span>(bears<span class="op">$</span>weight, bears<span class="op">$</span>length)</code></pre></div>
+<p><img src="Bears_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+</div>
+<div id="weight-vs.head-length" class="section level2">
+<h2>Weight vs. Head Length</h2>
+<p>The weight versus the head length of a bear appears to have a scattered relationship. While the plot has some structure to it, it was not enought to convince me that head length was the best measurement to compare the weight to.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">plot</span>(bears<span class="op">$</span>weight, bears<span class="op">$</span>head.l)</code></pre></div>
+<p><img src="Bears_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+</div>
+<div id="weight-vs.head-width" class="section level2">
+<h2>Weight vs. Head Width</h2>
+<p>As you can see in this graph, there is little to no correlation between the weight and head width of a bear. This goes to show that using the head width to determine the weight of a bear is not recommended.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">plot</span>(bears<span class="op">$</span>weight, bears<span class="op">$</span>head.w)</code></pre></div>
+<p><img src="Bears_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
+</div>
+<div id="weight-vs.neck-circumference" class="section level2">
+<h2>Weight vs. Neck Circumference</h2>
+<p>As we begin to compare the circumference of specific body parts on a bear, you can see by the graph that there is a more clear linear relationship between the two dimensions. In this graph in particular, I am plotting the weight of a bear against the neck circumference and finding out that there is a moderatly linear relationship that proves that. At this point, I was beginning to find out which dimensions were more reliable for predicting a bears weight.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">plot</span>(bears<span class="op">$</span>weight, bears<span class="op">$</span>neck.g)</code></pre></div>
+<p><img src="Bears_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
+<div id="weight-vs.chest-circumference" class="section level3">
+<h3>Weight vs. Chest Circumference</h3>
+<p>For the final graph, I plotted weight versus the chest circumference of a bear. Similar to the previous graph, there is a moderatly linear relationship between the two dimensions.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">plot</span>(bears<span class="op">$</span>weight, bears<span class="op">$</span>chest.g)</code></pre></div>
+<p><img src="Bears_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
+</div>
+</div>
+<div id="which-variables-have-the-most-linear-relationship-with-weight" class="section level2">
+<h2>Which variables have the most linear relationship with weight?</h2>
+<p>In these final graphs, I implemented a line-of-best-fit within the graphs that showed the most linear relationship. The dimensions head length, length, and chest circumference were the best fit for comparing to weight. This mathematical approach was chosen because in order to find out the best relationship between variables, a line of best fit should be used. I chose to plot all the variables first before fitting lines, and then choosing the specific variables that appeared to have a stronger correlation. While I was assuming that the other variables did not have a strong correlation with weight, I do believe this assumption is appropriate. I also assumed that the sexes of the bears are not important. The only assumption I could make as to why the sexes of the bears could be important, is the chance of reproduction with females. Considering that Ranger Bob Berra did not specify this as an issue, I assume he strictly wanted a dimension equation, and not an equation that included a character variable (sex). Furthermore, this leads me to the final mathematical approach I took to obtain an equation to approximate the weight of bears. My final mathematical approach was the use the 3 variables (head length, length, and chest circumference) to create an equation that would approximate the bears weight. I used the data that Ranger Bob Berra gave me to guess and check different equations until I finally came across one that I think worked best. The equation that best approximates weight is:</p>
+<pre><code>            Weight ~= 20*(neck.g)+chest.g-0.5*(length)</code></pre>
+<p>While there is error in this equation, I found that the line of best fit between the neck.g, chest.g and length all had closely linear relationships with the weight.</p>
+<pre><code>[1] &quot;sex&quot;     &quot;length&quot;  &quot;head.l&quot;  &quot;head.w&quot;  &quot;neck.g&quot;  &quot;chest.g&quot; &quot;weight&quot; </code></pre>
+<pre><code>
+Call:
+lm(formula = weight ~ ., data = bears)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-66.995 -15.474  -4.438  13.812 126.953 
+
+Coefficients:
+             Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept) -229.6235    26.3046  -8.729 9.95e-14 ***
+sexmale        1.9170     7.4868   0.256  0.79847    
+length        -0.1487     0.9020  -0.165  0.86937    
+head.l        -4.5087     3.8297  -1.177  0.24208    
+head.w         1.0700     4.1777   0.256  0.79842    
+neck.g         6.5523     2.0799   3.150  0.00219 ** 
+chest.g        9.4822     1.1962   7.927 4.82e-12 ***
+---
+Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+
+Residual standard error: 32.27 on 93 degrees of freedom
+Multiple R-squared:  0.922, Adjusted R-squared:  0.917 
+F-statistic: 183.2 on 6 and 93 DF,  p-value: &lt; 2.2e-16</code></pre>
+<pre><code>Loading required package: carData</code></pre>
+<pre><code>
+Attaching package: &#39;carData&#39;</code></pre>
+<pre><code>The following objects are masked from &#39;package:car&#39;:
+
+    Guyer, UN, Vocab</code></pre>
+<pre><code>lattice theme set by effectsTheme()
+See ?effectsTheme for details.</code></pre>
+<p><img src="Bears_files/figure-html/unnamed-chunk-8-1.png" width="672" /><img src="Bears_files/figure-html/unnamed-chunk-8-2.png" width="672" /></p>
+<pre><code>
+Call:
+lm(formula = weight ~ sqrt(length^3), data = bears)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-95.156 -38.561  -8.843  21.821 170.651 
+
+Coefficients:
+                 Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept)    -218.54991   24.65982  -8.863 3.55e-14 ***
+sqrt(length^3)    0.86246    0.05051  17.073  &lt; 2e-16 ***
+---
+Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+
+Residual standard error: 56.45 on 98 degrees of freedom
+Multiple R-squared:  0.7484,    Adjusted R-squared:  0.7458 
+F-statistic: 291.5 on 1 and 98 DF,  p-value: &lt; 2.2e-16</code></pre>
+<p><img src="Bears_files/figure-html/unnamed-chunk-8-3.png" width="672" /> To finalize my conclusion, I will re-address my mathematical process, as well as my assumptions and recommendations for Ranger Bob Berra. To begin my project, I first took the data, variable by variable, and plotted them against the weight individually. After looking at all of the graphs, I chose the most linear variables(length, next.g, chest.g) with weight to test out the line of best fit equations(not pictured in the graphs above) within the numbers that Ranger Bob Berra had given me. I used these formulas to find the closest approximation to an individual bears weight. Throughout this process, I assumed that the sex was not important. I also assumed that Ranger Bob Berra wanted an easy equation to work with within the field, therefore I tried to keep the data manipulation as simplistic as possible. This formula does have error to it. However, the best approximation that I could come up with, that was simple and involved the measurements given, is the one stated above. For my recommendations to Ranger Bob Berra, I recommend that he takes the equation and uses it with the neck.g, chest.g, and length variables. I also recommend that he removes male bears primarily in order to limit the amount of reproduction. Also, just by glancing at the data, male bears tend to be heavier, with a few over 400 pounds.</p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

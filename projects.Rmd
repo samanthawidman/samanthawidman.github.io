@@ -8,3 +8,9 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
+* [Data Camp Module: Exploratory Data Analysis](./projects/EDA.html)
+
+* [Tidy Paper Report](./projects/Tidy Paper Report v2.pdf)
+
+* [Bears Report](./projects/Bears.pdf)
