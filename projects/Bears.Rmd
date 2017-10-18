@@ -2,7 +2,7 @@
 title: "Bears"
 author: "MITCH & SAM & TUCKER"
 date: "9/15/2017"
-output: pdf_document
+output: html_document
 ---
 
 ```{r setup, include=FALSE}

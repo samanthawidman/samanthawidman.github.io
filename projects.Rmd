@@ -1,7 +1,7 @@
 ---
 title: "Projects"
-author: "Samantha Widman"
-date: "9/19/2017"
+author: ""
+date: ""
 output: html_document
 ---
 
@@ -11,6 +11,6 @@ knitr::opts_chunk$set(echo = TRUE)
 
 * [Data Camp Module: Exploratory Data Analysis](./projects/EDA.html)
 
-* [Tidy Paper Report](./projects/Tidy Paper Report v2.pdf)
+* [Tidy Paper Report](./projects/Tidy_Paper_Report_v2.pdf)
 
-* [Bears Report](./projects/Bears.pdf)
+* [Bears Report](./projects/Bears.html)
