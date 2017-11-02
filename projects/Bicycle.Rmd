@@ -1,11 +1,8 @@
-
 ---
 title: "Bicycle Sharing in Seattle"
 author: "Samantha Widman, Cathryn Wheeler, Xan Hendrix, Lauren Murray"
 date: "9/19/2017"
 output:
-  pdf_document:
-    toc: yes
   html_document:
     toc: yes
 ---

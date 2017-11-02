@@ -15,4 +15,4 @@ knitr::opts_chunk$set(echo = TRUE)
 
 * [Bears Report](./projects/Bears.html)
 
-* [Bicycle Project](./bicycle/bicycle_r_markdown.html)
+* [Bicycle Project](./projects/Bicycle.html)
