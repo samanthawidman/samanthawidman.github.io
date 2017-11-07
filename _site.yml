@@ -10,10 +10,11 @@ navbar:
   
   right:
     - icon: ion-social-linkedin
-      href: https://www.linkedin.com/feed/?trk=
+      href: https://www.linkedin.com/in/samantha-widman-918195125/
   
   
 output:
   html_document:
     theme: cerulean
     highlight: monochrome
+    
