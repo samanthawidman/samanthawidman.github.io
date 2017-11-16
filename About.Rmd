@@ -2,7 +2,7 @@
 title: "About Me"
 author: "Samantha Widman"
 date: "9/14/2017"
-output: html_document
+output: bookdown::html_document2
 ---
 
 ```{r setup, include=FALSE}
