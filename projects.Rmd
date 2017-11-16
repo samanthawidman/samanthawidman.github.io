@@ -2,7 +2,7 @@
 title: "Projects"
 author: ""
 date: ""
-output: html_document
+output: bookdown::html_document2
 ---
 
 ```{r setup, include=FALSE}

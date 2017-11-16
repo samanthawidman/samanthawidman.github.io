@@ -1,10 +1,15 @@
 ---
-output: html_document
+output: bookdown::html_document2
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Welcome!
+# Welcome! {-}
+
+
+```{r echo = FALSE, fig.cap = "Myself"}
+knitr:: include_graphics("./images/22886120_1462613997126081_4587455423330282935_n.jpg")
+```
 
