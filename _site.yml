@@ -7,7 +7,7 @@ navbar:
       href: About.html
     - text: "Projects"
       href: projects.html
-    - test: "Photos"
+    - text: "Photos"
       href: Photos.html
   
   right:
