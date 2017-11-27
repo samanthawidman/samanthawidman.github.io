@@ -1,15 +1,15 @@
 ---
 title: "About Me"
 author: "Samantha Widman"
-date: "9/14/2017"
+date: ""
 output: bookdown::html_document2
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE)
 ```
 
-```{r echo = FALSE}
+```{r echo = FALSE, fig.cap = "Colorado"}
 knitr:: include_graphics("./images/mountain.jpg")
 ```
 
