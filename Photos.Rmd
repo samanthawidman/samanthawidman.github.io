@@ -5,13 +5,13 @@ date: ""
 output: bookdown::html_document2
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+```{r setup, include=FALSE, echo = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
 ```
 
 Hello! On this page you can explore things that I like to do for fun, and see a little bit about me.
 
-```{r echo = FALSE, fig.cap = "Cape Cod"}
+```{r fig.cap = "Cape Cod"}
 knitr:: include_graphics("./images/cape_cod.jpg")
 ```
 
