@@ -3,6 +3,7 @@ Data Science Final: Baseball
 author: Samantha Widman
 date: 12/9/17
 autosize: true
+output: bookdown::html_document2
 
 How it started:
 ========================================================
