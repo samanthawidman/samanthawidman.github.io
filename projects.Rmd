@@ -17,4 +17,6 @@ knitr::opts_chunk$set(echo = TRUE)
 
 * [Bicycle Project](./projects/Bicycle.html)
 
+* [Final Presentation](./final.md)
+
 * [Time of Death Report](./projects/time_of_death.pdf)
